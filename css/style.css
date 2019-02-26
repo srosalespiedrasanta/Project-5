@@ -1,0 +1,125 @@
+body {
+  margin: 5px;
+  padding: 10px;
+  background-image: url(../images/background.jpg);
+  font-family: 'Open Sans', sans-serif
+}
+
+.container {
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  float: right;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 5px 0px;
+  margin-left: 18px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  font-size: 22px;
+  color: white;
+}
+
+.button-header {
+  float: right;
+  width: 10%;
+  height: 45px;
+  background: #E50467;
+  border: none;
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.content {
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.rotate {
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  margin-left: -20px;
+}
+
+.days {
+  color: #FEF350;
+}
+
+.second-number {
+  color: #F28A3C;
+}
+
+.third-number {
+  color: #46B8F8;
+}
+
+.quarter-number {
+  color: #8EC63F;
+}
+
+.conference {
+  color: white;
+}
+
+.number-2 {
+  color: #EC418B;
+  margin-right: -20px;
+}
+
+.number-0 {
+  color: #F28A3C;
+  margin-right: -20px;
+}
+
+.number-1 {
+  color: #46B8F8;
+  margin-right: -20px;
+}
+
+.number-9 {
+  color: white;
+}
+
+.address {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.button-content {
+  width: 10%;
+  height: 45px;
+  background: #E50467;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.icon-location {
+  color: #F28A3C;
+}
+
+.icon-calendar {
+  color: #F28A3C;
+  padding-left: 5px;
+}
+
+.text-icon {
+  color: white;
+}
